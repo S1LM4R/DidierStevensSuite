@@ -15,64 +15,64 @@ install:
 # command to run tests
 script:
   - apc-b.py -h
-  - decoder-chr.py -h
+  - decoder_chr.py -h
   - find-file-in-file.py -h
   - make-pdf-javascript.py -h
-  - naft-impf.py -h
+  - naft_impf.py -h
   - pecheck.py -h
-  - plugin-triage.py -h
+  - plugin_triage.py -h
   - split.py -h
   - apc-channel.py -h
-  - decoder-rol1.py -h
+  - decoder_rol1.py -h
   - image-forensics-ela.py -h
   - make-pdf-jbig2.py -h
-  - naft-pfef.py -h
+  - naft_pfef.py -h
   - peid-userdb-to-yara-rules.py -h
-  - plugin-vba-summary.py -h
+  - plugin_vba_summary.py -h
   - translate.py -h
   - apc-pr-log.py -h
-  - decoder-xor1.py -h
+  - decoder_xor1.py -h
   - image-overlay.py -h
   - MIFAREACR122.py -h
-  - naft-uf.py -h
-  - plugin-biff.py -h
+  - naft_uf.py -h
+  - plugin_biff.py -h
   - virustotal-search.py -h
   - base64dump.py -h
   - defuzzer.py -h
   - mPDF.py -h
   - nmap-xml-script-output.py -h
-  - plugin-dridex.py -h
+  - plugin_dridex.py -h
   - reextra.py -h
   - virustotal-submit.py -h
   - cisco-calculate-ssh-fingerprint.py -h
   - disitool.py -h
   - lookup-hosts.py -h
-  - naft-gfe.py -h
+  - naft_gfe.py -h
   - oledump.py -h
-  - plugin-embeddedfile.py -h
+  - plugin_embeddedfile.py -h
   - re-search.py -h
   - vs.py -h
   - count.py -h
   - emldump.py -h
   - lookup-ips.py -h
-  - naft-icd.py -h
-  - pcap-rename.py -h
-  - plugin-http-heuristics.py -h
+  - naft_icd.py -h
+  - pcap_rename.py -h
+  - plugin_http_heuristics.py -h
   - shellcode2vba.py -h
   - wsrradial.py -h
-  - decoder-add1.py -h
+  - decoder_add1.py -h
   - extractscripts.py -h
   - make-pdf-embedded.py -h
-  - naft-iipf.py -h
+  - naft_iipf.py -h
   - pdfid.py -h
-  - plugin-jumplist.py -h
+  - plugin_jumplist.py -h
   - shellcode2vbscript.py -h
   - wsrtool.py -h
-  - decoder-ah.py -h
+  - decoder_ah.py -h
   - file2vbscript.py -h
   - make-pdf-helloworld.py -h
-  - naft-ii.py -h
+  - naft_ii.py -h
   - pdf-parser.py -h
-  - plugin-nameobfuscation.py -h
+  - plugin_nameobfuscation.py -h
   - simple-shellcode-generator.py -h
   - zipdump.py -h
