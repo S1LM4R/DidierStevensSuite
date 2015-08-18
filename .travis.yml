@@ -10,6 +10,7 @@ python:
 addons:
   apt_packages:
     - swig
+    - libpcsclite-dev
 install:
   - "pip install --upgrade pip"
   - "pip install wheel"
