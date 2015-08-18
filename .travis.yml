@@ -15,12 +15,9 @@ install:
 # command to run tests
 script:
   - apc-b.py -h
-  - decoder_chr.py -h
   - find-file-in-file.py -h
   - make-pdf-javascript.py -h
-  - naft_impf.py -h
   - pecheck.py -h
-  - plugin_triage.py -h
   - split.py -h
   - apc-channel.py -h
   - decoder_rol1.py -h
@@ -28,28 +25,22 @@ script:
   - make-pdf-jbig2.py -h
   - naft_pfef.py -h
   - peid-userdb-to-yara-rules.py -h
-  - plugin_vba_summary.py -h
   - translate.py -h
   - apc-pr-log.py -h
   - decoder_xor1.py -h
   - image-overlay.py -h
   - MIFAREACR122.py -h
   - naft_uf.py -h
-  - plugin_biff.py -h
   - virustotal-search.py -h
   - base64dump.py -h
   - defuzzer.py -h
-  - mPDF.py -h
   - nmap-xml-script-output.py -h
-  - plugin_dridex.py -h
-  - reextra.py -h
   - virustotal-submit.py -h
   - cisco-calculate-ssh-fingerprint.py -h
   - disitool.py -h
   - lookup-hosts.py -h
   - naft_gfe.py -h
   - oledump.py -h
-  - plugin_embeddedfile.py -h
   - re-search.py -h
   - vs.py -h
   - count.py -h
@@ -57,15 +48,13 @@ script:
   - lookup-ips.py -h
   - naft_icd.py -h
   - pcap_rename.py -h
-  - plugin_http_heuristics.py -h
   - shellcode2vba.py -h
   - wsrradial.py -h
   - decoder_add1.py -h
-  - extractscripts.py -h
+  - extractscripts.py
   - make-pdf-embedded.py -h
   - naft_iipf.py -h
   - pdfid.py -h
-  - plugin_jumplist.py -h
   - shellcode2vbscript.py -h
   - wsrtool.py -h
   - decoder_ah.py -h
@@ -73,6 +62,5 @@ script:
   - make-pdf-helloworld.py -h
   - naft_ii.py -h
   - pdf-parser.py -h
-  - plugin_nameobfuscation.py -h
   - simple-shellcode-generator.py -h
   - zipdump.py -h
