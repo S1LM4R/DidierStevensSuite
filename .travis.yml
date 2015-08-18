@@ -13,3 +13,66 @@ install:
   - "pip wheel --allow-all-external --allow-unverified PIL .  "
   - "pip install --allow-all-external --allow-unverified PIL ."
 # command to run tests
+script:
+  - apc_b.py
+  - decoder_chr.py
+  - find_file_in_file.py
+  - make_pdf_javascript.py
+  - naft_impf.py
+  - pecheck.py
+  - plugin_triage.py
+  - split.py
+  - apc_channel.py
+  - decoder_rol1.py
+  - image_forensics_ela.py
+  - make_pdf_jbig2.py
+  - naft_pfef.py
+  - peid_userdb_to_yara_rules.py
+  - plugin_vba_summary.py
+  - translate.py
+  - apc_pr_log.py
+  - decoder_xor1.py
+  - image_overlay.py
+  - MIFAREACR122.py
+  - naft_uf.py
+  - plugin_biff.py
+  - virustotal_search.py
+  - base64dump.py
+  - defuzzer.py
+  - mPDF.py
+  - nmap_xml_script_output.py
+  - plugin_dridex.py
+  - reextra.py
+  - virustotal_submit.py
+  - cisco_calculate_ssh_fingerprint.py
+  - disitool.py
+  - lookup_hosts.py
+  - naft_gfe.py
+  - oledump.py
+  - plugin_embeddedfile.py
+  - re_search.py
+  - vs.py
+  - count.py
+  - emldump.py
+  - lookup-ips.py
+  - naft_icd.py
+  - pcap_rename.py
+  - plugin_http_heuristics.py
+  - shellcode2vba.py
+  - wsrradial.py
+  - decoder_add1.py
+  - extractscripts.py
+  - make_pdf_embedded.py
+  - naft_iipf.py
+  - pdfid.py
+  - plugin_jumplist.py
+  - shellcode2vbscript.py
+  - wsrtool.py
+  - decoder_ah.py
+  - file2vbscript.py
+  - make_pdf_helloworld.py
+  - naft_ii.py
+  - pdf_parser.py
+  - plugin_nameobfuscation.py
+  - simple_shellcode_generator.py
+  - zipdump.py  - 
