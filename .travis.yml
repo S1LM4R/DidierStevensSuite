@@ -10,8 +10,8 @@ python:
 install:
   - "pip install --upgrade pip"
   - "pip install wheel"
-  - "pip wheel --allow-all-external --allow-unverified PIL .  "
-  - "pip install --allow-all-external --allow-unverified PIL ."
+  - "pip wheel ."
+  - "pip install ."
 # command to run tests
 script:
   - apc-b.py -h
