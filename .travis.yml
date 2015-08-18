@@ -7,6 +7,9 @@ python:
   - "3.4"
   - "nightly"
 # command to install dependencies
+addons:
+  apt_packages:
+    - swig
 install:
   - "pip install --upgrade pip"
   - "pip install wheel"
