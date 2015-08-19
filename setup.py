@@ -118,7 +118,7 @@ setup(
 'image-forensics-ela.py=didierstevenssuite.image_forensics_ela:Main',
 'image-overlay.py=didierstevenssuite.image_overlay:Main',
 'lookup-hosts.py=didierstevenssuite.lookup_hosts:Main',
-'lookup-ips.py=didierstevenssuite.lookup-ips:Main',
+'lookup-ips.py=didierstevenssuite.lookup_ips:Main',
 'make-pdf-embedded.py=didierstevenssuite.make_pdf_embedded:Main',
 'make-pdf-helloworld.py=didierstevenssuite.make_pdf_helloworld:Main',
 'make-pdf-javascript.py=didierstevenssuite.make_pdf_javascript:Main',
