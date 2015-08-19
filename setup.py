@@ -123,7 +123,7 @@ setup(
 'make-pdf-helloworld.py=didierstevenssuite.make_pdf_helloworld:Main',
 'make-pdf-javascript.py=didierstevenssuite.make_pdf_javascript:Main',
 'make-pdf-jbig2.py=didierstevenssuite.make_pdf_jbig2:Main',
-'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',',
+'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',
 'nmap-xml-script-output.py=didierstevenssuite.nmap_xml_script_output:Main',
 'oledump.py=didierstevenssuite.oledump:Main',
 'pcap-rename.py=didierstevenssuite.pcap_rename:Main',
