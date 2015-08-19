@@ -21,7 +21,7 @@ Todo:
 from construct import *
 import time
 from optparse import OptionParser
-import Image,ImageDraw
+from PIL import Image, ImageDraw
 
 iImageSize = 1000
 
