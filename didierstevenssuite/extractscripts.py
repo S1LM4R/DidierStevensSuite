@@ -65,13 +65,18 @@ class MyParser(sgmllib.SGMLParser):
 
         return self.SCRIPTdata
 
-if len(sys.argv) != 2:
-    print "Usage: extractscripts html-file"
-else:
-    fHTML = open(sys.argv[1], "r")
-    s = fHTML.read()
-    fHTML.close()
-    del fHTML
 
-    myparser = MyParser()
-    myparser.parse(s)
+def Main():
+    if len(sys.argv) != 2:
+        print "Usage: extractscripts html-file"
+    else:
+        fHTML = open(sys.argv[1], "r")
+        s = fHTML.read()
+        fHTML.close()
+        del fHTML
+
+        myparser = MyParser()
+        myparser.parse(s)
+
+if __name__ == '__main__':
+    Main()

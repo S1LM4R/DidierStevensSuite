@@ -74,7 +74,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['pillow', 'poster', 'simplejson', 'pefile', 'pyscard', 'olefile'],
+    install_requires=['construct', 'pillow', 'poster', 'simplejson', 'pefile', 'pyscard', 'olefile'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
@@ -118,17 +118,12 @@ setup(
 'image-forensics-ela.py=didierstevenssuite.image_forensics_ela:Main',
 'image-overlay.py=didierstevenssuite.image_overlay:Main',
 'lookup-hosts.py=didierstevenssuite.lookup_hosts:Main',
-'lookup-ips.py=didierstevenssuite.lookup_ips:Main',
+'lookup-ips.py=didierstevenssuite.lookup-ips:Main',
 'make-pdf-embedded.py=didierstevenssuite.make_pdf_embedded:Main',
 'make-pdf-helloworld.py=didierstevenssuite.make_pdf_helloworld:Main',
 'make-pdf-javascript.py=didierstevenssuite.make_pdf_javascript:Main',
 'make-pdf-jbig2.py=didierstevenssuite.make_pdf_jbig2:Main',
-'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',
-'naft-gfe.py=didierstevenssuite.naft_gfe:Main',
-'naft-icd.py=didierstevenssuite.naft_icd:Main',
-'naft_iipf.py=didierstevenssuite.naft_iipf:Main',
-'naft-ii.py=didierstevenssuite.naft_ii:Main',
-'naft_uf.py=didierstevenssuite.naft_uf:Main',
+'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',',
 'nmap-xml-script-output.py=didierstevenssuite.nmap_xml_script_output:Main',
 'oledump.py=didierstevenssuite.oledump:Main',
 'pcap-rename.py=didierstevenssuite.pcap_rename:Main',
