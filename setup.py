@@ -71,7 +71,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['construct', 'pillow', 'poster', 'simplejson', 'pefile', 'pyscard', 'olefile'],
+    install_requires=['construct', 'pillow', 'poster;python_version=<"2.7"', 'simplejson', 'pefile', 'pyscard', 'olefile'],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
