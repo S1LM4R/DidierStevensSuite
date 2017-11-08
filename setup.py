@@ -138,5 +138,5 @@ setup(
 'wsrtool.py=didierstevenssuite.wsrtool:Main',
 'zipdump.py=didierstevenssuite.zipdump:Main'],
     },
-    scripts=['bin/extractscripts.py', 'bin/make_pdf_helloworld.py'],
+    scripts=['bin/extractscripts.py'],
 )
