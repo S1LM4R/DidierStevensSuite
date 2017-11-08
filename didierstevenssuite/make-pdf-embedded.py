@@ -1,0 +1,1 @@
+didierstevenssuite/make-pdf-embedded.py

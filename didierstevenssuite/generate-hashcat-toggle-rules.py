@@ -1,0 +1,1 @@
+didierstevenssuite/generate-hashcat-toggle-rules.py
