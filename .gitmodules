@@ -1,3 +1,6 @@
 [submodule "didierstevenssuite"]
-	path = didierstevenssuite
+	path = a/didierstevenssuite
+	url = https://github.com/DidierStevens/DidierStevensSuite
+[submodule "didierstevenssuite/didierstevenssuite"]
+	path = didierstevenssuite/didierstevenssuite
 	url = https://github.com/DidierStevens/DidierStevensSuite
