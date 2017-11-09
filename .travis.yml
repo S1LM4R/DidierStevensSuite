@@ -29,8 +29,8 @@ script:
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then make-pdf-javascript.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then make-pdf-jbig2.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then oledump.py -h; fi
-  - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then pdfid.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then pecheck.py -h; fi
+  - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then pdfid.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then shellcode2vba.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then shellcode2vbscript.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then virustotal-search.py -h; fi

@@ -2,6 +2,7 @@ from os import path
 import sys
 from codecs import open  # pylint:disable=redefined-builtin
 from setuptools import setup
+install_requires = ['construct', 'pillow', 'simplejson', 'pefile', 'pyscard', 'olefile', 'yara']
 python_console_scripts = [
     'apc-b.py=didierstevenssuite.apc_b:Main',
     'byte-stats.py=didierstevenssuite.byte_stats:Main',
@@ -28,6 +29,7 @@ python_console_scripts = [
     'password-history-analysis.py=didierstevenssuite.password_history_analysis:Main',
     'pcap-rename.py=didierstevenssuite.pcap_rename:Main',
     'pdf-parser.py=didierstevenssuite.pdf_parser:Main',
+    'pdfid.py=didierstevenssuite.pdfid:Main',
     'peid-userdb-to-yara-rules.py=didierstevenssuite.peid_userdb_to_yara_rules:Main',
     'python-per-line.py=didierstevenssuite.python_per_line:Main',
     're-search.py=didierstevenssuite.re_search:Main',
@@ -40,6 +42,7 @@ python_console_scripts = [
     'xor-kpa.py=didierstevenssuite.xor_kpa:Main',
 ]
 python_scripts = ['bin/reextra.py']
+python2_install_requires = ['poster', 'pyasn1', 'pyasn1-modules']
 python2_console_scripts = [
     'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',
     'apc-channel.py=didierstevenssuite.apc_channel:Main',
@@ -54,7 +57,6 @@ python2_console_scripts = [
     'make-pdf-javascript.py=didierstevenssuite.make_pdf_javascript:Main',
     'make-pdf-jbig2.py=didierstevenssuite.make_pdf_jbig2:Main',
     'oledump.py=didierstevenssuite.oledump:Main',
-    'pdfid.py=didierstevenssuite.pdfid:Main',
     'pecheck.py=didierstevenssuite.pecheck:Main',
     'shellcode2vba.py=didierstevenssuite.shellcode2vba:Main',
     'shellcode2vbscript.py=didierstevenssuite.shellcode2vbscript:Main',
@@ -70,6 +72,7 @@ if sys.version_info[0:2] < (3, 0):
     python_console_scripts.extend(python2_console_scripts)
     python_scripts.extend(python2_scripts)
     python_scripts.extend(python2_dependencies)
+    install_requires.extend(python2_install_requires)
 here = path.abspath(path.dirname(__file__))
 with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
     long_description = f.read()
@@ -92,7 +95,7 @@ setup(
     ],
     keywords='didier stevens pdf malware analysis',
     packages=['didierstevenssuite'],
-    install_requires=['construct', 'pillow', 'simplejson', 'pefile', 'pyscard', 'olefile'],
+    install_requires=install_requires,
     entry_points={
         'console_scripts': python_console_scripts
     },
