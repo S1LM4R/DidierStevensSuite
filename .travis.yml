@@ -38,18 +38,18 @@ script:
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then vs.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then wsrtool.py -h; fi
   - if [[ $TRAVIS_PYTHON_VERSION == 2* ]]; then zipdump.py -h; fi
-  - apc-b.py -h;
-  - cisco-calculate-ssh-fingerprint.py -h;
-  - count.py -h;
-  - defuzzer.py -h;
-  - find-file-in-file.py -h;
-  - image-overlay.py -h;
-  - lookup-hosts.py -h;
-  - nmap-xml-script-output.py -h;
-  - pcap-rename.py -h;
-  - pdf-parser.py -h;
-  - peid-userdb-to-yara-rules.py -h;
-  - re-search.py -h;
-  - simple-shellcode-generator.py -h;
-  - split.py -h;
-  - translate.py -h;
+  - apc-b.py -h
+  - cisco-calculate-ssh-fingerprint.py -h
+  - count.py -h
+  - defuzzer.py -h
+  - find-file-in-file.py -h
+  - image-overlay.py -h
+  - lookup-hosts.py -h
+  - nmap-xml-script-output.py -h
+  - pcap-rename.py -h
+  - pdf-parser.py -h
+  - peid-userdb-to-yara-rules.py -h
+  - re-search.py -h
+  - simple-shellcode-generator.py -h
+  - split.py -h
+  - translate.py -h
