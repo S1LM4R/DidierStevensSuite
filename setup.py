@@ -2,7 +2,7 @@ from os import path
 import sys
 from codecs import open  # pylint:disable=redefined-builtin
 from setuptools import setup
-install_requires = ['construct', 'pillow', 'simplejson', 'pefile', 'pyscard', 'olefile', 'yara']
+install_requires = ['construct', 'pillow', 'simplejson', 'pefile', 'pyscard', 'olefile', 'yara-python']
 python_console_scripts = [
     'apc-b.py=didierstevenssuite.apc_b:Main',
     'byte-stats.py=didierstevenssuite.byte_stats:Main',
