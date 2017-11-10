@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/z00nx/DidierStevensSuite.svg?branch=master)](https://travis-ci.org/z00nx/DidierStevensSuite)[![Maintainability](https://api.codeclimate.com/v1/badges/499572e5d6849f49baa8/maintainability)](https://codeclimate.com/github/z00nx/DidierStevensSuite/maintainability)
