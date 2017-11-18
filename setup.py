@@ -78,7 +78,7 @@ with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
     long_description = f.read()
 setup(
     name='didierstevenssuite',
-    version='1.0.0',
+    version='20171116a',
     description='Didier Stevens Suite',
     long_description=long_description,
     url='http://blog.didierstevens.com/didier-stevens-suite/',
