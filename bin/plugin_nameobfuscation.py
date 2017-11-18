@@ -1,0 +1,1 @@
+../didierstevenssuite/didierstevenssuite/plugin_nameobfuscation.py

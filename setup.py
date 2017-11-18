@@ -41,7 +41,7 @@ python_console_scripts = [
     'wsrradial.py=didierstevenssuite.wsrradial:Main',
     'xor-kpa.py=didierstevenssuite.xor_kpa:Main',
 ]
-python_scripts = ['bin/reextra.py']
+python_scripts = ['bin/reextra.py', 'bin/decoder_add1.py', 'bin/decoder_ah.py', 'bin/decoder_chr.py', 'bin/decoder_rol1.py', 'bin/decoder_xor1.py', 'bin/make-pdf-helloworld.py', 'bin/naft_iipf.py', 'bin/naft_impf.py', 'bin/naft_pfef.py', 'bin/naft_uf.py', 'bin/plugin_biff.py', 'bin/plugin_dridex.py', 'bin/plugin_embeddedfile.py', 'bin/plugin_hifo.py', 'bin/plugin_http_heuristics.py', 'bin/plugin_jumplist.py', 'bin/plugin_linear.py', 'bin/plugin_nameobfuscation.py', 'bin/plugin_pcode_dumper.py', 'bin/plugin_str_sub.py', 'bin/plugin_stream_o.py', 'bin/plugin_stream_sample.py', 'bin/plugin_triage.py', 'bin/plugin_vba_summary.py']
 python2_install_requires = ['poster', 'pyasn1', 'pyasn1-modules']
 python2_console_scripts = [
     'MIFAREACR122.py=didierstevenssuite.MIFAREACR122:Main',
