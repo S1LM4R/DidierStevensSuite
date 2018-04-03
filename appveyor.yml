@@ -82,46 +82,51 @@ install:
 build: false  # Not a C# project, build stuff at the test step instead.
 
 test_script:
-  - apc-b.py -h
-  - find-file-in-file.py -h
-  - make-pdf-javascript.py -h
-  - pecheck.py -h
-  - split.py -h
-  - apc-channel.py -h
-  - image-forensics-ela.py -h
-  - make-pdf-jbig2.py -h
-  - peid-userdb-to-yara-rules.py -h
-  - translate.py -h
-  - apc-pr-log.py -h
-  - image-overlay.py -h
   - MIFAREACR122.py -h
-  - virustotal-search.py -h
+  - apc-b.py -h
+  - apc-channel.py -h
+  - apc-pr-log.py -h
   - base64dump.py -h
-  - defuzzer.py -h
-  - nmap-xml-script-output.py -h
-  - virustotal-submit.py -h
   - cisco-calculate-ssh-fingerprint.py -h
-  - disitool.py -h
-  - lookup-hosts.py -h
-  - oledump.py -h
-  - re-search.py -h
-  - vs.py -h
   - count.py -h
+  - defuzzer.py -h
+  - disitool.py -h
   - emldump.py -h
-  - lookup-ips.py -h
-  - pcap-rename.py -h
-  - shellcode2vba.py -h
-  - wsrradial.py -h
   - extractscripts.py
-  - make-pdf-embedded.py -h
-  - pdfid.py -h
-  - shellcode2vbscript.py -h
-  - wsrtool.py -h
   - file2vbscript.py -h
+  - find-file-in-file.py -h
+  - format-bytes.py -h
+  - hash.py -h
+  - image-forensics-ela.py -h
+  - image-overlay.py -h
+  - lookup-hosts.py -h
+  - lookup-ips.py -h
+  - make-pdf-embedded.py -h
   - make-pdf-helloworld.py -h
+  - make-pdf-javascript.py -h
+  - make-pdf-jbig2.py -h
+  - nmap-xml-script-output.py -h
+  - oledump.py -h
+  - pcap-rename.py -h
   - pdf-parser.py -h
+  - pdfid.py -h
+  - pecheck.py -h
+  - peid-userdb-to-yara-rules.py -h
+  - re-search.py -h
+  - shellcode2vba.py -h
+  - shellcode2vbscript.py -h
   - simple-shellcode-generator.py -h
+  - split.py -h
+  - translate.py -h
+  - virustotal-search.py -h
+  - virustotal-submit.py -h
+  - vs.py -h
+  - what-is-new.py -h
+  - wsrradial.py -h
+  - wsrtool.py -h
+  - xmldump.py -h
   - zipdump.py -h
+
 
 after_test:
   # If tests are successful, create binary packages for the project.
